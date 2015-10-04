@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://www.Dummy.com" xmlns:n="http://www.Dummy.com/Name/Types">
+    <soap:Header></soap:Header>
+    <soap:Body>
+       <DummyResponse>
+           <DummyResult>
+               <Customers>
+                   <Customer>
+                    <DOB>01/01/1990</DOB>
+                    <FirstName>Tim</FirstName>
+                    <LastName>Pope</LastName>
+                  </Customer>
+               </Customers>
+               <Email>test@example.com</Email>
+           </DummyResult>
+       </DummyResponse>
+    </soap:Body>
+</soap:Envelope>

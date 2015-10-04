@@ -1,0 +1,12 @@
+{
+  "DummyResult": {
+    "Customers": {
+      "Customer": {
+        "DOB": "01/01/1990",
+        "FirstName": "Tim",
+        "LastName": "Pope"
+      }
+    },
+    "Email": "test@example.com"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "n:Customers": [
+    {
+      "n:Customer": {
+        "n:DOB": "01/01/1990",
+        "n:FirstName": "Tim",
+        "n:LastName": "Pope"
+      }
+    }
+  ],
+  "n:Email": "test@example.com"
+}
