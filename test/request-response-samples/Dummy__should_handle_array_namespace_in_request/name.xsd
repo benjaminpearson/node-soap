@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.Dummy.com/Name/Types" elementFormDefault="qualified" attributeFormDefault="unqualified">
-  <xs:complexType name="ArrayOfCustomer">
-    <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="Customer" type="n:Customer"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:element name="ArrayOfCustomer" nillable="true" type="tns:ArrayOfCustomer"/>
-  <xs:complexType name="Customer">
-    <xs:sequence>
-      <xs:element minOccurs="0" name="DOB" type="xs:string"/>
-      <xs:element minOccurs="0" name="FirstName" type="xs:string"/>
-      <xs:element minOccurs="0" name="LastName" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
+	<xs:complexType name="ArrayOfCustomer">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Customer" type="n:Customer"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="ArrayOfCustomer" nillable="true" type="tns:ArrayOfCustomer"/>
+	<xs:complexType name="Customer">
+		<xs:sequence>
+			<xs:element minOccurs="0" name="DOB" type="xs:string"/>
+			<xs:element minOccurs="0" name="FirstName" type="xs:string"/>
+			<xs:element minOccurs="0" name="LastName" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
 	<xs:element name="DummyRequest">
 		<xs:complexType>
 			<xs:sequence>
-        <xs:element name="Customers" type="tns:ArrayOfCustomer" minOccurs="0"/>
+				<xs:element name="Customers" type="tns:ArrayOfCustomer" minOccurs="0"/>
 				<xs:element name="Email" type="xs:string" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -24,7 +24,7 @@
 	<xs:element name="DummyResponse">
 		<xs:complexType>
 			<xs:sequence>
-        <xs:element name="Customers" type="tns:ArrayOfCustomer" minOccurs="0"/>
+				<xs:element name="Customers" type="tns:ArrayOfCustomer" minOccurs="0"/>
 				<xs:element name="Email" type="xs:string" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
